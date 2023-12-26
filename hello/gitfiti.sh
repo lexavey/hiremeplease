@@ -1,11 +1,5 @@
 #!/usr/bin/env bash
-REPO=hiremeplease
-git init $REPO
-cd $REPO
-touch README.md
-git add README.md
-touch gitfiti
-git add gitfiti
+
 GIT_AUTHOR_DATE=2019-01-15T12:00:00 GIT_COMMITTER_DATE=2019-01-15T12:00:00 git commit --allow-empty -m "gitfiti" > /dev/null
 GIT_AUTHOR_DATE=2019-01-16T12:00:00 GIT_COMMITTER_DATE=2019-01-16T12:00:00 git commit --allow-empty -m "gitfiti" > /dev/null
 GIT_AUTHOR_DATE=2019-01-16T12:00:00 GIT_COMMITTER_DATE=2019-01-16T12:00:00 git commit --allow-empty -m "gitfiti" > /dev/null
@@ -147,7 +141,3 @@ GIT_AUTHOR_DATE=2019-05-13T12:00:00 GIT_COMMITTER_DATE=2019-05-13T12:00:00 git c
 GIT_AUTHOR_DATE=2019-05-13T12:00:00 GIT_COMMITTER_DATE=2019-05-13T12:00:00 git commit --allow-empty -m "gitfiti" > /dev/null
 GIT_AUTHOR_DATE=2019-05-13T12:00:00 GIT_COMMITTER_DATE=2019-05-13T12:00:00 git commit --allow-empty -m "gitfiti" > /dev/null
 
-git branch -M main
-git remote add origin git@github.com:lexavey/$REPO.git
-git pull origin main
-git push -u origin main
